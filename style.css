@@ -1,0 +1,115 @@
+/*
+Theme Name: My Own Theme
+Text Domain: myowntheme
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: My own theme made from scratch.
+Tags: blog
+Author: Habibie
+Author URI: https://youtube.com/thirteenov/
+Theme URI: https://youtube.com/thirteenov/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+body{
+	font-family: 'Dosis', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,p{
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.header-menu ul{
+	margin: 20px;
+	list-style-type: none;
+	list-style: none;
+	list-style-image: none;
+	text-align: right;
+	float: right;
+}
+
+.header-menu li{
+	display: inline;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.header-menu li:hover{
+	background-color: white;
+	color: green;
+}
+
+.header{
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+.sitebody{
+	display: table;
+	width: 100%;
+}
+
+.bodycell{
+	display: table-cell;
+	padding: 20px;
+}
+
+.sb{
+	width: 350px;
+}
+
+label{
+	display: block;
+	width: 100%;
+}
+
+input, textarea{
+	padding: 10px; border-radius: 15px;
+	border: 1px solid green;
+}
+
+.footer{
+	background-color: green;
+	color: white;
+	display: table;
+	width: 100%;
+}
+
+.widget-footer{
+	display: table-cell;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.widget-footer ul{
+	list-style-type: none;
+	list-style: none;
+	list-style-image: none;
+	text-align: left;
+	padding: 0;
+}
+
+.widget-footer li{
+	display: block;
+	padding: 0;
+}
